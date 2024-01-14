@@ -1,0 +1,33 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "twilightforest.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "ChunkStatusMixin",
+        "ItemFrameMixin",
+        "ItemMixin",
+        "LeashFenceKnotEntityMixin",
+        "LevelMixin",
+        "MapItemMixin",
+        "MushroomBlockMixin",
+        "ServerEntityMixin",
+        "StructureStartMixin",
+        "WorldOptionsMixin",
+        "WrittenBookItemMixin"
+    ],
+    "client": [
+        "BiomeColorsMixin",
+        "EntityRenderDispatcherMixin",
+        "ItemInHandRendererMixin",
+        "LevelRendererMixin",
+        "LocalPlayerMixin",
+        "MapInstanceMixin",
+        "MusicManagerMixin"
+    ],
+    "server": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

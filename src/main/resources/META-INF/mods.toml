@@ -17,6 +17,9 @@ description='''
 An enchanted forest dimension.
 '''
 
+[[mixins]]
+config = "twilightforest.mixins.json"
+
 [[dependencies.twilightforest]]
     modId="neoforge"
     type="required"
